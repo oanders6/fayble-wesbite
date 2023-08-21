@@ -6,14 +6,11 @@ import "./HeroSection.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video src="/videos/video-2.mp4" autoPlay loop muted />
-      <h1>MAKE LASTING MEMORIES</h1>
-      <p>Join fayble</p>
+      {/* <video src="/videos/video-2.mp4" autoPlay loop muted /> */}
+      <h1>fayble</h1>
+      <p>Never miss out.</p>
       <div className="hero-btns">
-        <Button className="btns btn--outline btn--large">GET STARTED</Button>
-        <Button className="btns btn--primary btn--large">
-          WATCH TRAILER <i className="far fa-play-circle" />
-        </Button>
+        <Button buttonStyle="btn--outline" buttonSize={"btn--large"}>Download</Button>
       </div>
     </div>
   );
