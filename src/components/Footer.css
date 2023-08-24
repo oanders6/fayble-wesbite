@@ -177,8 +177,8 @@
   }
 
   .footer-link-wrapper {
-    flex-direction: column;
-  }
+    flex-direction: row;
+    justify-content: center;  }
 
   .social-media-wrap {
     flex-direction: column;

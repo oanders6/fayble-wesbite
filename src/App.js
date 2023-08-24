@@ -15,7 +15,7 @@ function App() {
         <Routes>
           <Route path="/" exact element={<Home />}></Route>
         </Routes>
-        {/* <Footer /> */}
+        <Footer />
       </Router>
     </>
   );
