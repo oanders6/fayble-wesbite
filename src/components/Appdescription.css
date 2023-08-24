@@ -1,5 +1,15 @@
 .description-container {
   display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #ffffff;
+}
+
+
+.map-logic-container {
+  display: flex;
   width: 100%;
   align-items: center;
   justify-content: space-around;
@@ -11,8 +21,7 @@
   flex-direction: column;
   justify-content: center;
   margin-bottom: 25px;
-  margin-left: 10px;
-  margin-right: -70px;
+  margin-right: -60px;
   align-items: center;
   object-fit: contain;
 }
@@ -22,19 +31,27 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
-  margin-left: 15px;
+  margin-left: 20px;
   /* align-items: center; */
   justify-content: center;
 }
 
+.text-container > p {
+  font-size: 15px;
+  margin-bottom: 20px;
+  /* text-align: justify; */
+}
+
 .image-mocks {
-  max-width: 100%;
-  min-width: 300px;
+  margin: 20px;
+  margin-left: 5px;
+  max-width: 30%;
+  min-width: 250px;
   height: auto;
 }
 
 .headers {
-  font-size: 35px;
+  font-size: 30px;
   align-items: left;
 }
 
