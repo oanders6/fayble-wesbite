@@ -1,66 +1,82 @@
-.description-container {
+.app-description-container {
   display: flex;
   flex-direction: column;
-  width: 100%;
-  align-items: center;
-  justify-content: space-around;
   background-color: #ffffff;
 }
-
 
 .map-logic-container {
   display: flex;
-  width: 100%;
-  align-items: center;
   justify-content: space-around;
   background-color: #ffffff;
+  padding: 20px; /* Adjust padding as needed */
+}
+
+/* Styling for the reversed description */
+.map-logic-container.reversed {
+  flex-direction: row;
 }
 
 .image-container {
+  width: 50%;
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  margin-bottom: 25px;
-  margin-right: -60px;
   align-items: center;
-  object-fit: contain;
+}
+
+.image-mocks {
+  max-width: 100%;
+  height: auto;
 }
 
 .text-container {
   flex: 1;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
-  margin-left: 20px;
-  /* align-items: center; */
-  justify-content: center;
+  text-align: left;
 }
 
-.text-container > p {
-  font-size: 15px;
-  margin-bottom: 20px;
-  /* text-align: justify; */
+.text-container-reversed {
+  flex: 1;
+  padding: 20px;
+  text-align: right;
 }
 
-.image-mocks {
-  margin: 20px;
-  margin-left: 5px;
-  max-width: 30%;
-  min-width: 250px;
-  height: auto;
+.text-container-notifs {
+  flex: 1;
+  padding: 20px;
+  text-align: left;
 }
 
 .headers {
   font-size: 30px;
-  align-items: left;
 }
 
-@media screen and (max-width: 820) {
-  .image-container {
-    flex-direction: column;
+.text-container h5 {
+  margin-bottom: 10px;
+}
+
+.text-container-reversed h3 {
+  margin-bottom: 10px;
+}
+
+.text-container-notifs h4 {
+  margin-bottom: 10px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .map-logic-container {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
   }
-  .text-container {
-    margin-left: 100px;
-    margin-right: 0px;
+
+  .map-logic-container.reversed {
+    flex-direction: row-reverse;
+    align-items: center;
+    text-align: center;
+  }
+
+  .image-container {
+    width: 100%;
   }
 }
