@@ -18,7 +18,7 @@ function Navbar() {
           <Link to="/" className="navbar-logo">
             fayble
           </Link>
-          {button && <Button buttonStyle="btn--outline">JOIN</Button>}
+          {button && <Button buttonStyle="btn--outline">Download</Button>}
         </div>
       </nav>
     </>

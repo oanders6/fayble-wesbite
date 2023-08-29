@@ -8,9 +8,9 @@ function Newsletter() {
   return (
     <div className="newsletter-container">
       <section className="newsletter-subscription">
-        <p className="newsletter-subscription-heading">
-          Join the Fayble newsletter to always know what's going on!
-        </p>
+        <h1 className="newsletter-subscription-heading">
+          Join the newsletter to stay in the loop
+        </h1>
         {/* <p className="newsletter-subscription-text">
           You can unsubscribe at any time.
         </p> */}
