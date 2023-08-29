@@ -51,11 +51,12 @@
   max-width: 1000px;
   display: flex;
   justify-content: center;
-  margin-left: 75px;
+  /* margin-left: 75px; */
 }
 
 .footer-link-wrapper {
   display: flex;
+  justify-content: center;  
 }
 
 .footer-link-items {
@@ -74,12 +75,16 @@
 
 .footer-link-items > h2 {
   color: #fff;
+  font-size: 45px;
+  margin-left: 50px;
 }
 
 .footer-link-items a {
+  margin-top: auto;
   color: #fff;
   text-decoration: none;
   margin-bottom: 0.5rem;
+  margin-left: 25px;
 }
 
 .footer-link-items a:hover {

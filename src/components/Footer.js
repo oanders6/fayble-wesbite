@@ -37,17 +37,12 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>About Us</h2>
-            <Link to="/sign-up">Meet the team</Link>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
-            <Link to="/">Terms of Service</Link>
           </div>
           <div class="footer-link-items">
-            <h2>Contact Us</h2>
-            <Link to="/">Contact</Link>
-            <Link to="/">Support</Link>
-            <Link to="/">Destinations</Link>
-            <Link to="/">Sponsorships</Link>
+          <Link to="/sign-up">Meet the team</Link>
+            <Link to="/">Testimonials</Link>
+            <Link to="/">Contact Us</Link>
+            <Link to="/">Terms of Service</Link>
           </div>
         </div>
         {/* <div className="footer-link-wrapper"> */}
