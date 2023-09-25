@@ -9,7 +9,7 @@ function Newsletter() {
     <div className="newsletter-container">
       <section className="newsletter-subscription">
         <h1 className="newsletter-subscription-heading">
-          Join the newsletter to stay in the loop
+          Join the newsletter!
         </h1>
         {/* <p className="newsletter-subscription-text">
           You can unsubscribe at any time.
@@ -22,7 +22,9 @@ function Newsletter() {
               type="email"
               placeholder="Your Email"
             />
-            <Button className="subscription-button" buttonStyle="btn--outline">Subscribe</Button>
+            <Button className="subscription-button" buttonStyle="btn--outline">
+              Subscribe
+            </Button>
           </form>
         </div>
       </section>

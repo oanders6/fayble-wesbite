@@ -10,7 +10,7 @@ function Home() {
     <>
       <HeroSection />
       <Appdescription />
-      <Newsletter />
+      {/* <Newsletter /> */}
     </>
   );
 }

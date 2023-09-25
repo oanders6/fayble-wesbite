@@ -25,7 +25,7 @@ function Appdescription() {
           </p>
         </div>
       </div>
-      
+
       {/* Second App Description */}
       <div className="map-logic-container reversed">
         <div className="image-container">
@@ -44,12 +44,10 @@ function Appdescription() {
           </p>
         </div>
       </div>
-
-            {/* Third App Description */}
-            <div className="map-logic-container">
+      <div className="map-logic-container">
         <div className="image-container">
           <img
-            className="image-mocks"
+            className="image-mocks-temp"
             src="images/fayble-notifications-mockup.png"
             alt="phone"
           />
@@ -59,9 +57,7 @@ function Appdescription() {
           <h2 className="headers">In</h2>
           <h3 className="headers">The</h3>
           <h4 className="headers">Loop</h4>
-          <p>
-            Get notified about upcoming events, posts, rsvps, and more.
-          </p>
+          <p>Get notified about upcoming events, posts, rsvps, and more.</p>
         </div>
       </div>
     </div>
