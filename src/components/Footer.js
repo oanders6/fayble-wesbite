@@ -33,7 +33,7 @@ function Footer() {
           </form>
         </div>
       </section> */}
-      <div class="footer-links">
+      {/* <div class="footer-links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>About Us</h2>
@@ -44,24 +44,24 @@ function Footer() {
             <Link to="/">Contact Us</Link>
             <Link to="/">Terms of Service</Link>
           </div>
-        </div>
-        {/* <div className="footer-link-wrapper"> */}
-          {/* <div class="footer-link-items"> */}
-            {/* <h2>Videos</h2>
+        </div> */}
+      {/* <div className="footer-link-wrapper"> */}
+      {/* <div class="footer-link-items"> */}
+      {/* <h2>Videos</h2>
             <Link to="/">Submit Video</Link>
             <Link to="/">Ambassadors</Link>
             <Link to="/">Agency</Link>
             <Link to="/">Influencer</Link>
           </div> */}
-          {/* <div class="footer-link-items">
+      {/* <div class="footer-link-items">
             <h2>Social Media</h2>
             <Link to="/">Instagram</Link>
             <Link to="/">Facebook</Link>
             <Link to="/">Youtube</Link>
             <Link to="/">Twitter</Link>
           </div> */}
-        {/* </div> */}
-      </div>
+      {/* </div> */}
+      {/* </div> */}
       <section class="social-media">
         <div class="social-media-wrap">
           <div class="footer-logo">
@@ -85,7 +85,7 @@ function Footer() {
             </Link>
             <Link
               class="social-icon-link instagram"
-              to="/"
+              to="https://www.instagram.com/fayble.inc/"
               target="_blank"
               aria-label="Instagram"
             >

@@ -17,6 +17,7 @@ function Navbar() {
         <div className="navbar-container">
           <Link to="/" className="navbar-logo">
             fayble
+            {/* <img src="images/fayble-logo.png" alt="fayble logo" /> */}
           </Link>
           {button && <Button buttonStyle="btn--outline">Download</Button>}
         </div>

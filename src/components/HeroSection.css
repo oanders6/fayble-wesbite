@@ -7,7 +7,8 @@ video {
 }
 
 .hero-container {
-  background: url(/Users/owenanderson/Desktop/fayble-website/public/images/providence_google_map.jpg) center center/cover no-repeat;
+  background: url(../../public/images/providence_google_map.jpg) center
+    center/cover no-repeat;
   height: 100vh;
   width: 100%;
   display: flex;
@@ -28,8 +29,8 @@ video {
   margin-top: 8px;
   color: #fff;
   font-size: 32px;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-    'Lucida Sans', Arial, sans-serif;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 .hero-btns {
@@ -73,5 +74,4 @@ video {
   .btn {
     width: 100%;
   }
-
 }

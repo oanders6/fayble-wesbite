@@ -1,6 +1,11 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+  Switch,
+} from "react-router-dom";
 import "./App.css";
 import Home from "./components/pages/Home";
 import Footer from "./components/Footer";
@@ -13,7 +18,9 @@ function App() {
       <Router>
         <Navbar />
         <Routes>
-          <Route path="/" exact element={<Home />}></Route>
+          <Route path="*" exact element={<Home />}>
+            <Route path="*" exact element={<Home />} />
+          </Route>
         </Routes>
         <Footer />
       </Router>
